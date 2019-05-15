@@ -1,0 +1,47 @@
+{
+  "settings": [
+    {
+      "name": "social",
+      "type": "social",
+      "fullWidth": true,
+      "label": "Choose services",
+      "fieldClass": "mb-2",
+      "default": [
+        {
+          "social": "facebook",
+          "url": "test.com",
+          "label": "Facebook",
+          "value": {
+            "social": "facebook",
+            "url": "test.com"
+          }
+        }
+      ]
+    },
+    {
+      "name": "align",
+      "type": "buttons",
+      "label": "Align",
+      "default": "center",
+      "options": [
+        {
+          "label": "Left",
+          "value": "left"
+        },
+        {
+          "label": "Center",
+          "value": "center"
+        },
+        {
+          "label": "Right",
+          "value": "right"
+        }
+      ],
+      "fieldClass": "editor-input editor-input--buttons mb-4",
+      "fullWidth": true
+    }
+  ],
+  "label": "SHARE",
+  "icon": "/img/block-socialShare.svg",
+  "part": "content"
+}

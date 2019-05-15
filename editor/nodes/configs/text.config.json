@@ -1,0 +1,14 @@
+{
+  "settings": [
+    {
+      "name": "text",
+      "type": "quill",
+      "default": "New text node",
+      "fullWidth": true,
+      "fieldClass": "editor-input mb-4"
+    }
+  ],
+  "label": "TEXT",
+  "icon": "/img/block-text.svg",
+  "part": "content"
+}

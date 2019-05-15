@@ -1,0 +1,13 @@
+{
+  "settings": {
+    "backgroundColor": "#fff",
+    "disableBackgroundImage": true,
+    "url": "",
+    "disableBottomSpacing": true,
+    "marginBottom": "20px",
+    "typeWidth": "FULL_WIDTH"
+  },
+  "label": "COLUMN",
+  "icon": null,
+  "hidden": true
+}

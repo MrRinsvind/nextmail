@@ -1,0 +1,72 @@
+{
+  "settings": [
+    {
+      "name": "src",
+      "type": "upload",
+      "label": "Image URL",
+      "default": "",
+      "placeholder": "Enter image URL or browse...",
+      "fieldClass": "editor-input--url mb-4",
+      "fullWidth": true
+    },
+    {
+      "name": "fullWidth",
+      "type": "checkbox",
+      "default": false,
+      "fieldClass": "mb-4",
+      "boxLabel": "Full width",
+      "fullWidth": true
+    },
+    {
+      "name": "width",
+      "type": "number",
+      "label": "Width",
+      "default": 100,
+      "fieldClass": "editor-input--number mb-4"
+    },
+    {
+      "name": "align",
+      "type": "buttons",
+      "label": "Align",
+      "default": "center",
+      "options": [
+        {
+          "value": "left",
+          "icon": "align-left"
+        },
+        {
+          "value": "center",
+          "icon": "align-center"
+        },
+        {
+          "value": "right",
+          "icon": "align-right"
+        }
+      ],
+      "fieldClass": "editor-input--buttons mb-4"
+    },
+    {
+      "name": "alt",
+      "type": "text",
+      "label": "Alt text",
+      "default": "",
+      "placeholder": "Add a brief description of the image...",
+      "fieldClass": "editor-input--text mb-4",
+      "fullWidth": true
+    },
+    {
+      "name": "url",
+      "type": "text",
+      "label": "Image link",
+      "default": "",
+      "prefix": true,
+      "prefixClass": "url-prefix",
+      "placeholder": "Add a link for the image...",
+      "fieldClass": "editor-input editor-input--url mb-4",
+      "fullWidth": true
+    }
+  ],
+  "label": "IMAGE",
+  "icon": "/img/block-image.svg",
+  "part": "content"
+}

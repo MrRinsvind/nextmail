@@ -1,0 +1,15 @@
+{
+  "settings": [
+    {
+      "name": "height",
+      "type": "number",
+      "label": "Height",
+      "default": 30,
+      "fieldClass": "editor-input--number mb-4"
+    }
+  ],
+  "label": "SPACING",
+  "icon": "/img/block-spacing.svg",
+  "part": "content"
+}
+

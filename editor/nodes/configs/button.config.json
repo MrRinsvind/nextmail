@@ -1,0 +1,97 @@
+{
+  "settings": [
+    {
+      "name": "text",
+      "type": "text",
+      "label": "Button text",
+      "default": "Click here",
+      "fieldClass": "mb-2",
+      "fullWidth": true
+    },
+    {
+      "name": "url",
+      "type": "text",
+      "label": "Button URL",
+      "prefix": true,
+      "prefixClass": "url-prefix",
+      "default": "",
+      "placeholder": "Enter Button URL...",
+      "fieldClass": "editor-input editor-input--url mb-2",
+      "fullWidth": true
+    },
+    {
+      "name": "width",
+      "type": "number",
+      "label": "Button Width",
+      "default": "100",
+      "fieldClass": "editor-input editor-input--number mb-2",
+      "fullWidth": false
+    },
+    {
+      "name": "height",
+      "type": "number",
+      "label": "Button Height",
+      "default": "40",
+      "fieldClass": "editor-input editor-input--number mb-2",
+      "fullWidth": false
+    },
+    {
+      "name": "fontSize",
+      "type": "number",
+      "label": "Font size",
+      "default": "14",
+      "fieldClass": "editor-input editor-input--number mb-2",
+      "fullWidth": false
+    },
+    {
+      "name": "borderRadius",
+      "type": "number",
+      "label": "Border radius",
+      "default": "3",
+      "fieldClass": "editor-input editor-input--number mb-4",
+      "fullWidth": false
+    },
+    {
+      "name": "backgroundColor",
+      "type": "color",
+      "label": "Background color",
+      "default": "#000",
+      "fieldClass": "editor-input editor-input--color mb-4",
+      "fullWidth": false
+    },
+    {
+      "name": "color",
+      "type": "color",
+      "label": "Font-color",
+      "default": "#fff",
+      "fieldClass": "editor-input editor-input--color mb-4",
+      "fullWidth": false,
+      "position": "right"
+    },
+    {
+      "name": "align",
+      "type": "buttons",
+      "label": "Align",
+      "default": "center",
+      "options": [
+        {
+          "label": "Left",
+          "value": "left"
+        },
+        {
+          "label": "Center",
+          "value": "center"
+        },
+        {
+          "label": "Right",
+          "value": "right"
+        }
+      ],
+      "fieldClass": "editor-input editor-input--buttons mb-4",
+      "fullWidth": true
+    }
+  ],
+  "label": "BUTTON",
+  "icon": "/img/block-button.svg",
+  "part": "content"
+}

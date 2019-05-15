@@ -1,0 +1,40 @@
+{
+  "settings": [
+    {
+      "name": "style",
+      "type": "select",
+      "label": "Divider style",
+      "fieldClass": "editor-input--select mb-4",
+      "options": [
+        {
+          "label": "Solid",
+          "value": "solid"
+        },
+        {
+          "label": "Dashed",
+          "value": "dashed"
+        },
+        {
+          "label": "Dotted",
+          "value": "dotted"
+        }
+      ]
+    },
+    {
+      "name": "height",
+      "type": "number",
+      "label": "Height",
+      "fieldClass": "editor-input--number mb-4"
+    },
+    {
+      "name": "color",
+      "type": "color",
+      "label": "Font-color",
+      "fieldClass": "editor-input--color mb-4"
+    }
+  ],
+  "label": "DIVIDER",
+  "icon": "/img/block-divider.svg",
+  "part": "content"
+}
+

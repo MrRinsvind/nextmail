@@ -1,0 +1,53 @@
+{
+  "settings": [
+    {
+      "name": "align",
+      "type": "buttons",
+      "label": "Align",
+      "default": "full width",
+      "options": [
+        {
+          "label": "Full width",
+          "value": "full width"
+        },
+        {
+          "label": "Content width",
+          "value": "content width"
+        },
+        {
+          "label": "Boxed",
+          "value": "boxed"
+        }
+      ],
+      "fieldClass": "editor-input--buttons mb-4",
+      "fullWidth": true
+    },
+    {
+      "name": "spacing",
+      "type": "number",
+      "label": "Add bottom spacing",
+      "default": 0,
+      "fieldClass": "editor-input--number mb-4",
+      "fullWidth": true
+    },
+    {
+      "name": "backgroundColor",
+      "type": "color",
+      "label": "Background color",
+      "default": "",
+      "fieldClass": "editor-input--color mb-4"
+    },
+    {
+      "name": "url",
+      "type": "upload",
+      "label": "Image URL",
+      "default": "",
+      "placeholder": "Enter image URL or browse...",
+      "fieldClass": "editor-input--url mb-4",
+      "fullWidth": true
+    }
+  ],
+  "label": "THREE COLUMN",
+  "icon": "/img/section-threecol.svg",
+  "part": "section"
+}
